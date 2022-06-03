@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		7C12F42E28270BA7009D8015 /* iChat_SwifUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12F42D28270BA7009D8015 /* iChat_SwifUIApp.swift */; };
-		7C12F43028270BA7009D8015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12F42F28270BA7009D8015 /* ContentView.swift */; };
+		7C12F43028270BA7009D8015 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12F42F28270BA7009D8015 /* SignInView.swift */; };
 		7C12F43228270BAA009D8015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C12F43128270BAA009D8015 /* Assets.xcassets */; };
 		7C12F43528270BAA009D8015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C12F43428270BAA009D8015 /* Preview Assets.xcassets */; };
+		7C12F43C28275266009D8015 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12F43B28275266009D8015 /* SignInViewModel.swift */; };
+		7C12F44028276B57009D8015 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12F43F28276B57009D8015 /* SignUpView.swift */; };
+		7C12F44228276BD8009D8015 /* SingUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12F44128276BD8009D8015 /* SingUpViewModel.swift */; };
+		7C12F4442828BB77009D8015 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C12F4432828BB77009D8015 /* GoogleService-Info.plist */; };
+		7CBA6E4F28485B9E00A14DCB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBA6E4E28485B9E00A14DCB /* ImagePicker.swift */; };
+		CA14B7B9A9CDB5FDDA712643 /* Pods_iChat_SwifUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82087AFDD4FDFF30AF34249C /* Pods_iChat_SwifUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C12F42A28270BA7009D8015 /* iChat-SwifUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iChat-SwifUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C12F42D28270BA7009D8015 /* iChat_SwifUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChat_SwifUIApp.swift; sourceTree = "<group>"; };
-		7C12F42F28270BA7009D8015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C12F42F28270BA7009D8015 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		7C12F43128270BAA009D8015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C12F43428270BAA009D8015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C12F43B28275266009D8015 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		7C12F43F28276B57009D8015 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7C12F44128276BD8009D8015 /* SingUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewModel.swift; sourceTree = "<group>"; };
+		7C12F4432828BB77009D8015 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7CBA6E4E28485B9E00A14DCB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		82087AFDD4FDFF30AF34249C /* Pods_iChat_SwifUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat_SwifUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7C74FA65B67E7FA6E2C022 /* Pods-iChat-SwifUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat-SwifUI.debug.xcconfig"; path = "Target Support Files/Pods-iChat-SwifUI/Pods-iChat-SwifUI.debug.xcconfig"; sourceTree = "<group>"; };
+		CD222EEC3678CAD5ADDF081A /* Pods-iChat-SwifUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat-SwifUI.release.xcconfig"; path = "Target Support Files/Pods-iChat-SwifUI/Pods-iChat-SwifUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA14B7B9A9CDB5FDDA712643 /* Pods_iChat_SwifUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +52,8 @@
 			children = (
 				7C12F42C28270BA7009D8015 /* iChat-SwifUI */,
 				7C12F42B28270BA7009D8015 /* Products */,
+				BE9004ECCDA15F6C71B6FD2A /* Pods */,
+				E73929FF10EDE63A7AD58450 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				7C12F42D28270BA7009D8015 /* iChat_SwifUIApp.swift */,
-				7C12F42F28270BA7009D8015 /* ContentView.swift */,
+				7C12F42F28270BA7009D8015 /* SignInView.swift */,
 				7C12F43128270BAA009D8015 /* Assets.xcassets */,
 				7C12F43328270BAA009D8015 /* Preview Content */,
+				7C12F43B28275266009D8015 /* SignInViewModel.swift */,
+				7C12F43F28276B57009D8015 /* SignUpView.swift */,
+				7C12F44128276BD8009D8015 /* SingUpViewModel.swift */,
+				7CBA6E4E28485B9E00A14DCB /* ImagePicker.swift */,
+				7C12F4432828BB77009D8015 /* GoogleService-Info.plist */,
 			);
 			path = "iChat-SwifUI";
 			sourceTree = "<group>";
@@ -67,6 +89,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BE9004ECCDA15F6C71B6FD2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C74FA65B67E7FA6E2C022 /* Pods-iChat-SwifUI.debug.xcconfig */,
+				CD222EEC3678CAD5ADDF081A /* Pods-iChat-SwifUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E73929FF10EDE63A7AD58450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82087AFDD4FDFF30AF34249C /* Pods_iChat_SwifUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C12F43828270BAA009D8015 /* Build configuration list for PBXNativeTarget "iChat-SwifUI" */;
 			buildPhases = (
+				F93A125EAD4175E194E786BA /* [CP] Check Pods Manifest.lock */,
 				7C12F42628270BA7009D8015 /* Sources */,
 				7C12F42728270BA7009D8015 /* Frameworks */,
 				7C12F42828270BA7009D8015 /* Resources */,
+				8BC6CACAA3DA384B3C0E7561 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +168,65 @@
 			files = (
 				7C12F43528270BAA009D8015 /* Preview Assets.xcassets in Resources */,
 				7C12F43228270BAA009D8015 /* Assets.xcassets in Resources */,
+				7C12F4442828BB77009D8015 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BC6CACAA3DA384B3C0E7561 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iChat-SwifUI/Pods-iChat-SwifUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iChat-SwifUI/Pods-iChat-SwifUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iChat-SwifUI/Pods-iChat-SwifUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93A125EAD4175E194E786BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iChat-SwifUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C12F42628270BA7009D8015 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C12F43028270BA7009D8015 /* ContentView.swift in Sources */,
+				7C12F44228276BD8009D8015 /* SingUpViewModel.swift in Sources */,
+				7C12F44028276B57009D8015 /* SignUpView.swift in Sources */,
+				7C12F43028270BA7009D8015 /* SignInView.swift in Sources */,
+				7CBA6E4F28485B9E00A14DCB /* ImagePicker.swift in Sources */,
 				7C12F42E28270BA7009D8015 /* iChat_SwifUIApp.swift in Sources */,
+				7C12F43C28275266009D8015 /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +351,7 @@
 		};
 		7C12F43928270BAA009D8015 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7C74FA65B67E7FA6E2C022 /* Pods-iChat-SwifUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +380,7 @@
 		};
 		7C12F43A28270BAA009D8015 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD222EEC3678CAD5ADDF081A /* Pods-iChat-SwifUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
